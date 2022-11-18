@@ -7,15 +7,19 @@
 
 import SwiftUI
 
+struct Shrinkingcurcal: Shape {
+    
+    func path(in rect: CGRect) -> Path
+    
+    var path
+    
+    return Path
+}
+
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+Text("")
     }
 }
 
